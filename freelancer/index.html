@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Göktuğ Karabulut</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<nav>
+		<div class="container clearfix">
+			<div id="logo-box">
+				<a href="index.html" class="logo text-uppercase">
+					Göktuğ Karabulut
+				</a>
+			</div>
+			<div id="nav-links" class="responsive">
+				<ul>
+
+					<li class="nav-item">
+						<a href="#" class="nav-link text-uppercase nav-icon">
+							<i class="fas fa-bars"></i>
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#portfolio" class="nav-link text-uppercase">
+							Proje
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link text-uppercase">
+							Hakkımda
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="mailto:goktugkarabulut97@gmail.com" class="nav-link text-uppercase">
+							İletişim
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header>
+		<div class="container">
+			<img id="profile-image" class="img-fluid" src="img/IMG_20210209_172929.jpg" width="350px" alt="">
+			<h1 class="text-uppercase">Frontend Developer</h1>
+			<h2>
+				Merhabalar Göktuğ. Fırsatlara açığım, dört gözle bekliyorum.
+			</h2>
+			<hr class="star-light">
+		</div>
+	</header>
+
+	<section id="portfolio">
+		<div class="container">
+			<h2 class="text-uppercase">
+				proje
+			</h2>
+			<hr class="star-dark">
+
+			<div id="portfolio-images" class="clearfix">
+
+				<div class="col">
+					<div class="portfolio-item">
+						<a href="https://www.ayanormcore.com/">
+							<img class="img-fluid" src="img/Mask Group(2).png" alt="">
+
+							<div class="img-overlay">
+								<div class="icon">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+						</a>
+
+					</div>
+
+				</div>
+				<div class="col">
+					<div class="portfolio-item">
+
+						<a href="http://www.benjester.com/">
+							<img class="img-fluid" src="img/Mask Group.png" alt="">
+
+							<div class="img-overlay">
+								<div class="icon">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+						</a>
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+	</section>
+
+	<section id="about">
+		<h2 class="text-uppercase">HAKKIMDA</h2>
+
+		<hr class="star-light">
+
+		<div id="about-text" class="clearfix">
+
+			<div class="left">
+				<p class="text">
+					Yaklaşık 5 aydır yazılım öğrenmeye ve her geçen gün üstüne yeni şeyler eklemeye çalışıyorum. Burada
+					bence bir şeyi yapabilmekten öte bir insan nasıl öğrenebilir daha önemli. Öğrenmeyi öğrenmek derler
+					ya onu keşfetmiş olmanın güveni ile doğru adımlarla ilerlediğimi düşünüyorum.
+				</p>
+			</div>
+			<div class="right">
+				<p class="text">
+					Henüz yolun başında olsamda, hayatta öğrenmek istediğim şeylerin peşini bırakmayan bir yapıya
+					sahibim. Kariyerimi nasıl şekillendirmem gerektiğini biliyorum. Ve devamlı yeni şeyler araştırıp,
+					öğrenmek için çabalıyorum. Son olarak birazcık da Maraş Aslanıyım :)
+				</p>
+			</div>
+
+		</div>
+	</section>
+
+
+	<div class="copyright">
+		<div class="container">
+			<small>
+				Göktuğ Karabulut © 2021
+			</small>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<script>
+		$('.nav-icon').click(function () {
+			$('#nav-links').toggleClass("responsive");
+			return false;
+		});
+	</script>
+
+</body>
+
+</html>
